@@ -20,7 +20,7 @@ func main() {
 
 	for taskName, task := range config.Snapshot_Task {
 		task.CreateSvc()
-		
+
 		task.CreateSnapshot(taskName)
 
 		_, err := task.DeleteOldSnapshots(taskName)
