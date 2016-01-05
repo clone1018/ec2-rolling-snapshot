@@ -22,3 +22,6 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+ec2-rolling-snapshot
+config.gcfg
